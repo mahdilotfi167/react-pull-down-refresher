@@ -1,2 +1,5 @@
 # react-pull-down-refresher
-Created with CodeSandbox
+
+---
+
+Simple pull down to refresh component with react
