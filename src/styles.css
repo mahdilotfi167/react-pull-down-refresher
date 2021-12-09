@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.pull-down-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pull-down-container-transitioned {
+  transition: all 150ms linear;
+}
+
+.pull-down-arrow {
+  color: grey;
+  width: 40px !important;
+  height: 40px !important;
+  transition: all 0.2s linear !important;
+}
+
+.pull-down-arrow-accept {
+  color: rgb(84, 175, 66) !important;
+  transform: rotate(180deg);
+}
+
+body {
+  overscroll-behavior: contain;
+}
